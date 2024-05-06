@@ -4,7 +4,7 @@
 - Columns: 'ID'	'Text'	'#ofwords'	'Date'	'Country'	'Publisher'	'URL'	'Title'
 ### Where to get Data
 - 2010-2020 available on https://www.lib.uchicago.edu/restricted/db/now-linguistic-corpus/
-- After download, extract zip files, you can reference my approach in this ipynb
+- After download, extract zip files, you can reference my approach in [this ipynb](extract_zip.ipynb)
 - Text files are file names like "20-01-us1.txt" that conatains article content with unique ID 'textID'
 - Sources files are names like "now-sources-2020.txt" that contains article source information, including 'textID',	'#ofwords',	'Date',	'Country',	'Publisher',	'URL',	'Title'
 - Merge by unique ID 'textID' to get complete information
